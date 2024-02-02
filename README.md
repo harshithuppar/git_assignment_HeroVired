@@ -26,13 +26,13 @@ def divide(self, a, b):
 
 return a / b
 
-# TODO: Implement the following function to calculate the square root of a number.
+#TODO: Implement the following function to calculate the square root of a number.
 
-# def square_root(self, x):
+def square_root(self, x):
 
-# return math.sqrt(x)
+return math.sqrt(x)
 
-# You need to uncomment the above function and complete its implementation to add the square root feature.
+#You need to uncomment the above function and complete its implementation to add the square root feature.
 
 if __name__ == "__main__":
 
@@ -48,11 +48,11 @@ print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") print(f"{num1} * {
 
 print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 
-# TODO: Uncomment and test the square root feature.
+#TODO: Uncomment and test the square root feature.
 
-# num3 = 25
+#num3 = 25
 
-# print(f"The square root of {num3} = {calculator.square_root(num3)}")
+#print(f"The square root of {num3} = {calculator.square_root(num3)}")
 
 c. Merge this branch with the main branch and make a release of version 1 of the ‘calculator plus app’.
 
@@ -100,19 +100,19 @@ if __name__ == "__main__":
 
 calculator = GeometryCalculator()
 
-# TODO: Implement the feature to calculate the area of a circle
+#TODO: Implement the feature to calculate the area of a circle
 
-# radius = 5
+#radius = 5
 
-# print(f"The area of the circle with radius {radius} =
+#print(f"The area of the circle with radius {radius} =
 
 {calculator.calculate_circle_area(radius)}")
 
-# TODO: Implement the feature to calculate the area of a rectangle # length = 10
+#TODO: Implement the feature to calculate the area of a rectangle # length = 10
 
-# width = 6
+#width = 6
 
-# print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
+#print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
 
 Workflow Steps:
 
